@@ -10,14 +10,21 @@ import CoreData
 
 struct ContentView: View {
     var body: some View {
-        Circle()
-            .padding(70)
-            .overlay(
-                Image(systemName: "waveform")
-                    .font(.system(size: 144))
-                    .foregroundColor(.white)
-                
-            )
+        VStack{
+            
+            Button(action:{
+                print("button pressed")
+            }) {
+                Circle()
+                    .fill(.black)
+                    .frame(width: 300, height: 300)
+                    .overlay(
+                        Image(systemName: "waveform")
+                            .font(.system(size: 144))
+                            .foregroundColor(.white)
+                    )
+            }
+        }
     }
 }
 

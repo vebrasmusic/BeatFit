@@ -8,13 +8,20 @@
 import SwiftUI
 import CoreData
 
-struct ContentView: View {
+struct RecordingView: View {
+    var recording = ARecording()
+    
     var body: some View {
         VStack{
-            
             Button(action:{
-                print("button pressed")
-            }) {
+                if recording.is_recording == false{
+                    recording.start_recording()
+                }
+                else {
+                    recording.stop_recording()
+                }
+            }) 
+            {
                 Circle()
                     .fill(.black)
                     .frame(width: 300, height: 300)
@@ -28,9 +35,9 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct RecordingView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        RecordingView()
     }
 }
 

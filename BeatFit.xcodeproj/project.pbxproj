@@ -8,21 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		3BA29E332B8C0F0500BAB388 /* BeatFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA29E322B8C0F0500BAB388 /* BeatFitApp.swift */; };
-		3BA29E352B8C0F0500BAB388 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA29E342B8C0F0500BAB388 /* ContentView.swift */; };
+		3BA29E352B8C0F0500BAB388 /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA29E342B8C0F0500BAB388 /* RecordingView.swift */; };
 		3BA29E372B8C0F0600BAB388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA29E362B8C0F0600BAB388 /* Assets.xcassets */; };
 		3BA29E3A2B8C0F0600BAB388 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA29E392B8C0F0600BAB388 /* Preview Assets.xcassets */; };
 		3BA29E3C2B8C0F0600BAB388 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA29E3B2B8C0F0600BAB388 /* Persistence.swift */; };
 		3BA29E3F2B8C0F0600BAB388 /* BeatFit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BA29E3D2B8C0F0600BAB388 /* BeatFit.xcdatamodeld */; };
+		3BEC99322B8D6C9C00831A45 /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEC99312B8D6C9C00831A45 /* Recording.swift */; };
+		3BEC99342B8D968800831A45 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEC99332B8D968800831A45 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3BA29E2F2B8C0F0500BAB388 /* BeatFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA29E322B8C0F0500BAB388 /* BeatFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatFitApp.swift; sourceTree = "<group>"; };
-		3BA29E342B8C0F0500BAB388 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3BA29E342B8C0F0500BAB388 /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
 		3BA29E362B8C0F0600BAB388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BA29E392B8C0F0600BAB388 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3BA29E3B2B8C0F0600BAB388 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		3BA29E3E2B8C0F0600BAB388 /* BeatFit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeatFit.xcdatamodel; sourceTree = "<group>"; };
+		3BEC99312B8D6C9C00831A45 /* Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
+		3BEC99332B8D968800831A45 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			isa = PBXGroup;
 			children = (
 				3BA29E322B8C0F0500BAB388 /* BeatFitApp.swift */,
-				3BA29E342B8C0F0500BAB388 /* ContentView.swift */,
+				3BA29E342B8C0F0500BAB388 /* RecordingView.swift */,
+				3BEC99312B8D6C9C00831A45 /* Recording.swift */,
+				3BEC99332B8D968800831A45 /* Utils.swift */,
 				3BA29E362B8C0F0600BAB388 /* Assets.xcassets */,
 				3BA29E3B2B8C0F0600BAB388 /* Persistence.swift */,
 				3BA29E3D2B8C0F0600BAB388 /* BeatFit.xcdatamodeld */,
@@ -144,9 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BA29E3C2B8C0F0600BAB388 /* Persistence.swift in Sources */,
-				3BA29E352B8C0F0500BAB388 /* ContentView.swift in Sources */,
+				3BA29E352B8C0F0500BAB388 /* RecordingView.swift in Sources */,
 				3BA29E332B8C0F0500BAB388 /* BeatFitApp.swift in Sources */,
 				3BA29E3F2B8C0F0600BAB388 /* BeatFit.xcdatamodeld in Sources */,
+				3BEC99322B8D6C9C00831A45 /* Recording.swift in Sources */,
+				3BEC99342B8D968800831A45 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

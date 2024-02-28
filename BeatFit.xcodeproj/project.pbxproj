@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B6F71772B8DA02D00B08B1C /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F71762B8DA02D00B08B1C /* Haptics.swift */; };
 		3BA29E332B8C0F0500BAB388 /* BeatFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA29E322B8C0F0500BAB388 /* BeatFitApp.swift */; };
 		3BA29E352B8C0F0500BAB388 /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA29E342B8C0F0500BAB388 /* RecordingView.swift */; };
 		3BA29E372B8C0F0600BAB388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA29E362B8C0F0600BAB388 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B6F71762B8DA02D00B08B1C /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
 		3BA29E2F2B8C0F0500BAB388 /* BeatFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA29E322B8C0F0500BAB388 /* BeatFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatFitApp.swift; sourceTree = "<group>"; };
 		3BA29E342B8C0F0500BAB388 /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				3BA29E342B8C0F0500BAB388 /* RecordingView.swift */,
 				3BEC99312B8D6C9C00831A45 /* Recording.swift */,
 				3BEC99332B8D968800831A45 /* Utils.swift */,
+				3B6F71762B8DA02D00B08B1C /* Haptics.swift */,
 				3BA29E362B8C0F0600BAB388 /* Assets.xcassets */,
 				3BA29E3B2B8C0F0600BAB388 /* Persistence.swift */,
 				3BA29E3D2B8C0F0600BAB388 /* BeatFit.xcdatamodeld */,
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B6F71772B8DA02D00B08B1C /* Haptics.swift in Sources */,
 				3BA29E3C2B8C0F0600BAB388 /* Persistence.swift in Sources */,
 				3BA29E352B8C0F0500BAB388 /* RecordingView.swift in Sources */,
 				3BA29E332B8C0F0500BAB388 /* BeatFitApp.swift in Sources */,

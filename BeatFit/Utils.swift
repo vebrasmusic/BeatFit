@@ -25,7 +25,7 @@ class ATimer{
         let stopTime = Date() // Capture the stop time
         let elapsedTime = stopTime.timeIntervalSince(start) // Calculate the elapsed time in seconds
         
-        print("Elapsed Time: \(elapsedTime) seconds")
+        print("Elapsed Time: \(elapsedTime.rounded()) seconds")
         return elapsedTime
     }
 }

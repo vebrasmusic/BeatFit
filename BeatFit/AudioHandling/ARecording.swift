@@ -11,9 +11,7 @@ import AVFAudio
 
 
 class ARecording{
-    
     var is_recording = false
-    var recording_length = 0.0
     let timer = ATimer()
     var audio_recorder: AVAudioRecorder?
     let audio_handler = AAudioHandler()
@@ -21,18 +19,17 @@ class ARecording{
     func handle_recording() {
         if is_recording == false{
             start_recording()
+            print(is_recording)
         }
         else {
             stop_recording()
+            print(is_recording)
         }
     }
 
     
-//    init(){
-//    }
-    
     func start_recording() {
-            audio_handler.requestMicrophonePermission() // get mic permission before initializing, only for phone
+            is_recording = true
             let fileURL = getDocumentsDirectory().appendingPathComponent("recording.m4a")
             let settings = [
                 AVFormatIDKey: Int(kAudioFormatMPEG4AAC),
@@ -48,7 +45,6 @@ class ARecording{
                 audio_recorder = try AVAudioRecorder(url: fileURL, settings: settings)
                 audio_recorder?.prepareToRecord()
                 audio_recorder?.record()
-                is_recording = true
                 timer.startCountingTime()
                 print("recording started!")
             } catch {
@@ -57,11 +53,11 @@ class ARecording{
         }
     
     func stop_recording() {
+            is_recording = false
             audio_recorder?.stop()
             let audioSession = AVAudioSession.sharedInstance()
             try? audioSession.setActive(false)
-            recording_length = timer.stopCountingTime()
-            is_recording = false
+//            recording_length = timer.stopCountingTime()
             print("stopped recording :0")
             // Here you can handle the saved file, e.g., updating the UI or preparing for playback
         }

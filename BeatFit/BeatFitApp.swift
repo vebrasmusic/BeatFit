@@ -13,7 +13,7 @@ struct BeatFitApp: App {
 
     var body: some Scene {
         WindowGroup {
-            RecordingView()
+            MainView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

@@ -7,19 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B6F71772B8DA02D00B08B1C /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F71762B8DA02D00B08B1C /* Haptics.swift */; };
+		3B6F71792B8F13EF00B08B1C /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F71782B8F13EF00B08B1C /* test.swift */; };
+		3B6F717C2B915D1A00B08B1C /* ATimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F717B2B915D1A00B08B1C /* ATimer.swift */; };
+		3B6F71802B91859800B08B1C /* PlaybackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F717F2B91859800B08B1C /* PlaybackView.swift */; };
+		3B6F71822B9189C800B08B1C /* AAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F71812B9189C800B08B1C /* AAudioPlayer.swift */; };
+		3B6F71842B9189D900B08B1C /* AAudioHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F71832B9189D900B08B1C /* AAudioHandler.swift */; };
+		3B6F71872B918EA900B08B1C /* AAudioProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F71862B918EA900B08B1C /* AAudioProgressBar.swift */; };
+		3B6F71892B9190E600B08B1C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F71882B9190E600B08B1C /* MainView.swift */; };
 		3BA29E332B8C0F0500BAB388 /* BeatFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA29E322B8C0F0500BAB388 /* BeatFitApp.swift */; };
 		3BA29E352B8C0F0500BAB388 /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA29E342B8C0F0500BAB388 /* RecordingView.swift */; };
 		3BA29E372B8C0F0600BAB388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA29E362B8C0F0600BAB388 /* Assets.xcassets */; };
 		3BA29E3A2B8C0F0600BAB388 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA29E392B8C0F0600BAB388 /* Preview Assets.xcassets */; };
 		3BA29E3C2B8C0F0600BAB388 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA29E3B2B8C0F0600BAB388 /* Persistence.swift */; };
 		3BA29E3F2B8C0F0600BAB388 /* BeatFit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BA29E3D2B8C0F0600BAB388 /* BeatFit.xcdatamodeld */; };
-		3BEC99322B8D6C9C00831A45 /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEC99312B8D6C9C00831A45 /* Recording.swift */; };
-		3BEC99342B8D968800831A45 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEC99332B8D968800831A45 /* Utils.swift */; };
+		3BEC99322B8D6C9C00831A45 /* ARecording.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEC99312B8D6C9C00831A45 /* ARecording.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3B6F71762B8DA02D00B08B1C /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		3B6F71782B8F13EF00B08B1C /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		3B6F717B2B915D1A00B08B1C /* ATimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATimer.swift; sourceTree = "<group>"; };
+		3B6F717F2B91859800B08B1C /* PlaybackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackView.swift; sourceTree = "<group>"; };
+		3B6F71812B9189C800B08B1C /* AAudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAudioPlayer.swift; sourceTree = "<group>"; };
+		3B6F71832B9189D900B08B1C /* AAudioHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAudioHandler.swift; sourceTree = "<group>"; };
+		3B6F71862B918EA900B08B1C /* AAudioProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAudioProgressBar.swift; sourceTree = "<group>"; };
+		3B6F71882B9190E600B08B1C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		3BA29E2F2B8C0F0500BAB388 /* BeatFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA29E322B8C0F0500BAB388 /* BeatFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatFitApp.swift; sourceTree = "<group>"; };
 		3BA29E342B8C0F0500BAB388 /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
@@ -27,8 +38,7 @@
 		3BA29E392B8C0F0600BAB388 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3BA29E3B2B8C0F0600BAB388 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		3BA29E3E2B8C0F0600BAB388 /* BeatFit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeatFit.xcdatamodel; sourceTree = "<group>"; };
-		3BEC99312B8D6C9C00831A45 /* Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
-		3BEC99332B8D968800831A45 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		3BEC99312B8D6C9C00831A45 /* ARecording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARecording.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +52,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B6F717A2B915CF700B08B1C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3B6F717B2B915D1A00B08B1C /* ATimer.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3B6F717D2B915D3A00B08B1C /* AudioHandling */ = {
+			isa = PBXGroup;
+			children = (
+				3BEC99312B8D6C9C00831A45 /* ARecording.swift */,
+				3B6F71812B9189C800B08B1C /* AAudioPlayer.swift */,
+				3B6F71832B9189D900B08B1C /* AAudioHandler.swift */,
+			);
+			path = AudioHandling;
+			sourceTree = "<group>";
+		};
+		3B6F717E2B915D4E00B08B1C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3BA29E342B8C0F0500BAB388 /* RecordingView.swift */,
+				3B6F717F2B91859800B08B1C /* PlaybackView.swift */,
+				3B6F71882B9190E600B08B1C /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3B6F71852B918E8B00B08B1C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3B6F71862B918EA900B08B1C /* AAudioProgressBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		3BA29E262B8C0F0500BAB388 = {
 			isa = PBXGroup;
 			children = (
@@ -62,12 +108,13 @@
 			isa = PBXGroup;
 			children = (
 				3BA29E322B8C0F0500BAB388 /* BeatFitApp.swift */,
-				3BA29E342B8C0F0500BAB388 /* RecordingView.swift */,
-				3BEC99312B8D6C9C00831A45 /* Recording.swift */,
-				3BEC99332B8D968800831A45 /* Utils.swift */,
-				3B6F71762B8DA02D00B08B1C /* Haptics.swift */,
-				3BA29E362B8C0F0600BAB388 /* Assets.xcassets */,
 				3BA29E3B2B8C0F0600BAB388 /* Persistence.swift */,
+				3B6F71782B8F13EF00B08B1C /* test.swift */,
+				3B6F71852B918E8B00B08B1C /* Components */,
+				3B6F717E2B915D4E00B08B1C /* Views */,
+				3B6F717D2B915D3A00B08B1C /* AudioHandling */,
+				3B6F717A2B915CF700B08B1C /* Utils */,
+				3BA29E362B8C0F0600BAB388 /* Assets.xcassets */,
 				3BA29E3D2B8C0F0600BAB388 /* BeatFit.xcdatamodeld */,
 				3BA29E382B8C0F0600BAB388 /* Preview Content */,
 			);
@@ -152,13 +199,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B6F71772B8DA02D00B08B1C /* Haptics.swift in Sources */,
+				3B6F71842B9189D900B08B1C /* AAudioHandler.swift in Sources */,
+				3B6F71892B9190E600B08B1C /* MainView.swift in Sources */,
 				3BA29E3C2B8C0F0600BAB388 /* Persistence.swift in Sources */,
 				3BA29E352B8C0F0500BAB388 /* RecordingView.swift in Sources */,
 				3BA29E332B8C0F0500BAB388 /* BeatFitApp.swift in Sources */,
 				3BA29E3F2B8C0F0600BAB388 /* BeatFit.xcdatamodeld in Sources */,
-				3BEC99322B8D6C9C00831A45 /* Recording.swift in Sources */,
-				3BEC99342B8D968800831A45 /* Utils.swift in Sources */,
+				3B6F717C2B915D1A00B08B1C /* ATimer.swift in Sources */,
+				3B6F71872B918EA900B08B1C /* AAudioProgressBar.swift in Sources */,
+				3B6F71792B8F13EF00B08B1C /* test.swift in Sources */,
+				3B6F71822B9189C800B08B1C /* AAudioPlayer.swift in Sources */,
+				3B6F71802B91859800B08B1C /* PlaybackView.swift in Sources */,
+				3BEC99322B8D6C9C00831A45 /* ARecording.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

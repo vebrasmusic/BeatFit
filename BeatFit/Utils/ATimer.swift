@@ -1,12 +1,11 @@
 //
-//  Utils.swift
+//  ATimer.swift
 //  BeatFit
 //
-//  Created by Andrés Harisa Duvvuri on 2/26/24.
+//  Created by Andrés Harisa Duvvuri on 2/29/24.
 //
 
 import Foundation
-
 
 class ATimer{
     
@@ -29,3 +28,4 @@ class ATimer{
         return elapsedTime
     }
 }
+

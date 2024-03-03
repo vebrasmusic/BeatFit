@@ -22,7 +22,7 @@ struct MainView: View {
             .gesture(DragGesture().onEnded { value in
                 if value.translation.width < 0 {
                     // Swipe Left - Show Second View
-                    withAnimation {
+                    withAnimation(.easeInOut(duration: 0.5)) {
                         isShowingSecondView = true
                     }
                 } else if value.translation.width > 0 {

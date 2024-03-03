@@ -47,6 +47,7 @@ struct RecordingView: View {
                             Image(systemName: "waveform")
                                 .font(.system(size: 180-(250-circle_size)))
                                 .foregroundColor(.black))
+                        .symbolEffect(.variableColor.iterative.reversing, options: .nonRepeating, value: is_recording)
                 }
                 .sensoryFeedback(.impact(weight: .medium, intensity: 10.0), trigger: is_recording)
             }

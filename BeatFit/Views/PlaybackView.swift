@@ -3,7 +3,7 @@
 //  BeatFit
 //
 //  Created by Andrés Harisa Duvvuri on 2/29/24.
-//
+
 
 import SwiftUI
 
@@ -14,11 +14,11 @@ struct PlaybackView: View {
         ZStack {
             Color.black
                 .ignoresSafeArea()
-                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/)
+            RoundedRectangle(cornerRadius: 15.0)
                     .fill(Color.white)
                     .frame(width:300, height: 175)
                     .overlay(
-                        VStack(spacing: 0){ //holds the audio controls + progres bar
+                        VStack(spacing: 0){ //holds the audio controls + progress bar
                             
                             Spacer()
                             
@@ -51,11 +51,9 @@ struct PlaybackView: View {
                             AAudioProgressBar(audio_progress: audio_player.audio_progress)
                             
                             Spacer()
-                            
                         }
                         )
         }
-        
     }
 }
 
